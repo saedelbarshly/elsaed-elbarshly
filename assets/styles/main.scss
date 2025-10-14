@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-BlackItalic.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/static/Figtree-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("~/assets/fonts/Figtree/Figtree-VariableFont_wght.ttf")
+      format("truetype"),
+    url("~/assets/fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf")
+      format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  &::selection {
+    @apply text-primary bg-transparent;
+  }
+}
