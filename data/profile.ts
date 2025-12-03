@@ -17,7 +17,7 @@ export const profile = {
       "Backend developer specialized in Laravel APIs and scalable systems. I design resilient data models, optimize databases and caching, implement secure auth, and integrate third-party services to ship business-critical features reliably.",
     companies: [
       { name: "True ventures", href: "https://alalmiyalhura.com", image: "/trueventures.jpeg" },
-      { name: "ITAD VIP", image: "/itad.jpg" , href: "https://www.linkedin.com/company/itadvip/" },
+      { name: "Pickappo", image: "/pickappo.jpg" , href: "https://www.linkedin.com/company/pickappo/" },
       { name: "Technomasr For Web Solutions", image: "/techno.jpg", href: "https://www.linkedin.com/company/technomasr/" },
     ],
     doing: [
@@ -54,8 +54,8 @@ export const profile = {
     },
     {
       role: "Backend Developer",
-      company: "ITAD VIP",
-      image: "/itad.jpg",
+      company: "Pickappo",
+      image: "/pickappo.jpg",
       location: "Saudi Arabia",
       start: "Jan 2024",
       end: "Aug 2024",
@@ -126,7 +126,7 @@ export const profile = {
     }
   ],
   skills: [
-    "Laravel","PHP","RESTful APIs","MySQL","Database Design/Indexing",
+    "Laravel","PHP","RESTful APIs","MySQL","NOSQL","Database Design/Indexing",
     "Redis Caching","Queues/Jobs","JWT/OAuth","3rd-party Integrations",
     "Payment Gateways","Performance Optimization","Cloud Deployments","Testing","CI/CD"
   ],
